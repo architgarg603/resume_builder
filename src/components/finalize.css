@@ -72,3 +72,15 @@
 .finalize-selected-tick{
     display: block;
 }
+
+.download-btn{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+}
+.btn{
+    width: 100%;
+
+}

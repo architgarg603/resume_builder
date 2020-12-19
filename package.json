@@ -10,6 +10,7 @@
     "react-redux-firebase": "^2.1.6",
     "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.0",
+    "react-to-pdf": "0.0.13",
     "redux": "^4.0.5",
     "redux-firestore": "^0.14.0",
     "redux-thunk": "^2.3.0",
