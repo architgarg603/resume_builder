@@ -1,0 +1,74 @@
+.finalize{
+    display: flex;
+    justify-content: space-between;
+    height: 600px;
+}
+
+
+
+.final-preview{
+    box-shadow: 0 2px 9px rgba(186, 186, 186, 0.5);
+    width: 500px;
+    height: 600px;
+    margin: 50px 0px 0px 50px;
+}
+.finalize-heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: xxx-large;
+    font-family: cursive;
+    border-bottom: groove;
+    margin-bottom: 30px;
+    position:fixed;
+    background-color: white;
+    z-index: 1;
+    width: fit-content;
+}
+.finalize_img{
+    height: 300px;
+    width: 250px;
+    border: groove;
+    border-radius: 15px;
+    margin: 15px 15px 25px 15px;
+}
+
+.finalize-options{
+    height:640px ;
+    padding-top: 50px;
+    overflow: auto;
+    width: 350px;
+    margin-left: 20px;
+}
+.finalize-templates{
+    margin-top: 10px;
+}
+.finalize-template{
+    position: relative;
+}
+.finalize-template-btn{
+    background: linear-gradient(45deg, #1DBFAF 0, #1EAEDB 85%, #1EAEDB 100%);
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+    border:1px solid white;
+    position: absolute;
+    top:150px;
+    left: 80px;
+    outline: none;
+}
+
+.finalize-tick-img{
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    right: 90px;
+    top: 30px;
+    display: none;
+}
+.finalize-selected-btn{
+    display: none;
+}
+.finalize-selected-tick{
+    display: block;
+}

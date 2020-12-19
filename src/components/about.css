@@ -1,0 +1,27 @@
+.about{
+display: flex;
+margin-top:50px;
+justify-content: space-around;
+}
+
+.left-about{
+width:50%;
+/* background: lightgrey; */
+margin: auto;
+}
+
+.right-about{
+width: 40%;
+}
+
+.right-about img{
+    width: 100%;
+}
+p{
+    font-size: large;
+}
+h2{
+    font-size: xx-large;
+
+
+}

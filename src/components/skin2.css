@@ -1,0 +1,104 @@
+    .prev-header {
+        height: fit-content;
+        display: flex;
+        justify-content: space-between;
+        padding: 15px;
+    }
+    
+    .details {
+        padding: 10px;
+    }
+    
+    .name {
+        width: fit-content;
+    }
+    
+    .fname {
+        font-size: 30px;
+        font-weight: bold;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    
+    .lname {
+        font-size: 30px;
+        font-weight: bold;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    
+    .adress {
+        display: flex;
+    }
+    
+    /* .summary {} */
+    
+    .profession {
+        padding-bottom: 0px;
+    }
+    
+    .contacts {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    .street,
+    .city,
+    .state,
+    .country,
+    .pin,
+    .email,
+    .phone {
+        font-size: 10px;
+        margin-right: 3px;
+    }
+    
+    .course-detail,
+    .edu-contact,
+    .edu-end {
+        display: flex;
+    }
+    
+    .education-details {
+        padding: 10px;
+    }
+    
+    .line1 {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .cgpa,
+    .educationCity,
+    .educationState,
+    .degree,
+    .college,
+    .graduationMonth,
+    .graduationYear {
+        margin-right: 3px;
+        font-size: 9px;
+        padding-bottom: 4px;
+    }
+    
+    .degree,
+    .college,
+    .graduationMonth,
+    .graduationYear {
+        font-weight: bold;
+        font-size: 12px;
+    }
+    
+    .cgpa {
+        font-size: 10px;
+    }
+    
+    .headings {
+        width: calc(100wh);
+        background-color: lightgray;
+        height: 25px;
+        font-size: large;
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: bold;
+        display: flex;
+        align-items: center;
+        padding-left: 10px;
+    }

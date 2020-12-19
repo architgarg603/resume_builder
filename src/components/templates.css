@@ -1,0 +1,83 @@
+.templates {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 50px;
+  /* background: chocolate; */
+  height: fit-content;
+  justify-content: space-around;
+  margin-bottom: 50px;
+}
+
+.templates-intro {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.templates-styles {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    height: 50%;
+}
+.g-tick{
+  margin: 0px 0px 0px 20px;
+  transform: rotate(5deg);
+  padding-top: 10px;
+  height: 50px;
+  width: 50px;
+}
+
+.template {
+  height: 280px;
+  width: 250px;
+  position: relative;
+  margin: 15px 15px 25px 15px;
+  border: groove;
+  border-radius: 15px;
+    
+}
+
+.skin{
+  /* background: red; */
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
+.template img:hover {
+  opacity: 0.6;
+}
+
+.template-btn {
+    background: linear-gradient(45deg, #1DBFAF 0, #1EAEDB 85%, #1EAEDB 100%);
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+    border:1px solid white;
+    position: absolute;
+    top:50%;
+    left: 25%;
+    outline: none;
+}
+
+.tick{
+  height: 30px;
+  width: 30px;
+  display: none;
+  position: relative;
+  left: 200px;
+  top: 10px;
+}
+
+.selected-skin{
+  box-shadow: 0 8px 19px rgba(92, 91, 91, 0.5);
+}
+.selected-tick{
+  display: block;
+}
+.selected-btn{
+  display: none;
+}

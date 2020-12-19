@@ -1,0 +1,24 @@
+.landing-page{
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    height: calc(100vh - 80px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.landing-page .logo{
+    height: 400px;
+    width: 500px;
+
+}
+
+
+.landing-page .logo img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
