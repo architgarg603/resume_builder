@@ -9,13 +9,13 @@
 }
 .signup-form{
     box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.25);
-    width: 70%;
+    min-width: 30%;
     height: 575px;
     flex: .45;
 }
 
 .signup-img{
-    flex: .5;
+    width: 50%;
     margin-left: 50px;
 }
 
